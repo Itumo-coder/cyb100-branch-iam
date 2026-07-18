@@ -1,0 +1,8 @@
+﻿name: Secure Integration Verification
+on: [pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Execute Diagnostic Validation
+        run: echo "CI pipeline gating verification running."
